@@ -114,9 +114,9 @@ input, select {
 nav {
     display: block;
     margin-left: 2%;
-    width: 50%;
+    width: 60%;
     color: #1c1c1c;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 nav ul li {
@@ -129,6 +129,10 @@ nav ul li a{
     text-decoration: none;
     font-size: 24px;
     color: #1c1c1c;
+}
+
+nav ul li a:hover{
+    color: #991e1f;
 }
 
 .content {
