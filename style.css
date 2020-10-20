@@ -145,3 +145,23 @@ h1 {
     font-family: 'Poor Story', cursive;
     font-weight: 700;
 }
+
+.snsmenu{
+    margin-left: 2%;
+    padding-top: 7%;
+}
+
+.snsmenu ul li{
+    list-style: none;
+    float: left;
+}
+
+.fbicon{
+    width: 50%;
+    padding-left: 1%;
+}
+
+.instaicon{
+    padding-top: 2px;
+    width: 45%;
+}
