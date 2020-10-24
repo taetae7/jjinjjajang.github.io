@@ -91,12 +91,18 @@ input, select {
 }
 
 /* Start Here */
+h1 {
+    font-family: 'Poor Story', cursive;
+    font-weight: 700;
+}
+
 .wrapper {
     margin-top: 1%;
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 1%;
     padding-top: 20px;
+    width: auto;
 }
 
 .logowrapper {
@@ -135,17 +141,6 @@ nav ul li a:hover{
     color: #991e1f;
 }
 
-.content {
-    width: 70%;
-    padding-left: 25%;
-    display: inline-block;
-}
-
-h1 {
-    font-family: 'Poor Story', cursive;
-    font-weight: 700;
-}
-
 .snsmenu{
     margin-left: 2%;
     padding-top: 7%;
@@ -164,4 +159,75 @@ h1 {
 .instaicon{
     padding-top: 2px;
     width: 45%;
+}
+
+.content {
+    width: 70%;
+    padding-left: 25%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1250px){
+    .wrapper {
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        padding-top: 10px;
+        width: auto;
+    }
+
+    .logowrapper {
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+    }
+    
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    
+    nav {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        color: #1c1c1c;
+        line-height: 60px;
+        text-align: center;
+    }
+    
+    .snsmenu{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 2%;
+        padding-left: 38%;
+    }
+    
+    .snsmenu ul li{
+        list-style: none;
+        display: block;
+    }
+    
+    .fbicon{
+        width: 50%;
+    }
+    
+    .instaicon{
+        padding-top: 2px;
+        width: 45%;
+    }
+
+    .content {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: block;
+    }
 }
