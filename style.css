@@ -185,6 +185,17 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width: 1250px){
+    h2 {
+        font-family: 'Poor Story', cursive;
+        font-weight: 700;
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-family: 'Poor Story', cursive;
+        font-weight: 700;
+        font-size: 20px;
+    }
     .wrapper {
         margin-top: 1%;
         margin-left: 1%;
@@ -220,12 +231,12 @@ nav ul li a:hover{
     
     .snsmenu{
         display: block;
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: 25%;
+        margin-right: 25%;
         margin-bottom: 5px;
-        width: 30%;
+        width: 50%;
         padding-top: 3%;
-        padding-left: 11%;
+        padding-left: 21%;
         position: relative;
     }
     
@@ -253,18 +264,18 @@ nav ul li a:hover{
 
 @media screen and (max-width: 870px){
     .snsmenu{
-        padding-left: 10%;
+        padding-left: 20%;
     }
 }
 
 @media screen and (max-width: 770px){
     .snsmenu{
-        padding-left: 9%;
+        padding-left: 18%;
     }
 }
 
 @media screen and (max-width: 510px){
     .snsmenu{
-        padding-left: 5%;
+        padding-left: 15%;
     }
 }
