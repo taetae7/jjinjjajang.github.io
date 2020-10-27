@@ -96,6 +96,18 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-family: 'Poor Story', cursive;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Poor Story', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 .wrapper {
     margin-top: 1%;
     margin-left: 1%;
@@ -167,6 +179,11 @@ nav ul li a:hover{
     display: inline-block;
 }
 
+.images {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 1250px){
     .wrapper {
         margin-top: 1%;
@@ -180,7 +197,7 @@ nav ul li a:hover{
     .logowrapper {
         width: 100%;
         display: inline-block;
-        position: absolute;
+        position: relative;
     }
     
     .logo {
@@ -202,16 +219,18 @@ nav ul li a:hover{
     }
     
     .snsmenu{
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        padding-top: 2%;
-        padding-left: 38%;
+        display: block;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-bottom: 5px;
+        width: 30%;
+        padding-top: 3%;
+        padding-left: 11%;
+        position: relative;
     }
     
     .snsmenu ul li{
         list-style: none;
-        display: block;
     }
     
     .fbicon{
@@ -224,10 +243,28 @@ nav ul li a:hover{
     }
 
     .content {
-        padding-left: 0;
+        padding-left: 0%;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         display: block;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .snsmenu{
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .snsmenu{
+        padding-left: 9%;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .snsmenu{
+        padding-left: 5%;
     }
 }
