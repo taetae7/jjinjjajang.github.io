@@ -184,6 +184,14 @@ nav ul li a:hover{
     height: auto;
 }
 
+.menu {
+    width: 48%;
+}
+
+.deliicon{
+    width: 40%;
+}
+
 @media screen and (max-width: 1250px){
     h2 {
         font-family: 'Poor Story', cursive;
@@ -261,6 +269,10 @@ nav ul li a:hover{
         display: block;
         text-align: center;
     }
+
+    .menu {
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 870px){
@@ -271,7 +283,7 @@ nav ul li a:hover{
 
 @media screen and (max-width: 770px){
     .snsmenu{
-        padding-left: 18%;
+        padding-left: 17%;
     }
 }
 
