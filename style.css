@@ -192,6 +192,13 @@ nav ul li a:hover{
     width: 40%;
 }
 
+.hours ul li {
+    list-style: none;
+    font-family: 'Poor Story', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
 @media screen and (max-width: 1250px){
     h2 {
         font-family: 'Poor Story', cursive;
