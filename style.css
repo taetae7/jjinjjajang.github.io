@@ -312,9 +312,12 @@ nav ul li a:hover{
     .deliicon{
         width: 60%;
     }
+    
     .menuitem{
         list-style: none;
         float: left;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-bottom: 40px;
     }
 
@@ -327,6 +330,8 @@ nav ul li a:hover{
     .menuitem{
         list-style: none;
         float: left;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-bottom: 40px;
     }
 }
@@ -338,6 +343,8 @@ nav ul li a:hover{
     .menuitem{
         list-style: none;
         float: left;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-bottom: 40px;
     }
 }
@@ -349,6 +356,8 @@ nav ul li a:hover{
     .menuitem{
         list-style: none;
         float: left;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-bottom: 40px;
     }
 }
