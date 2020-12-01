@@ -312,20 +312,22 @@ nav ul li a:hover{
     .deliicon{
         width: 60%;
     }
-
-    .menuwrapper {
-        margin-top: 50px;
-        width: 100%;
+    .menuitem{
+        list-style: none;
+        float: left;
+        padding-bottom: 40px;
     }
+
 }
 
 @media screen and (max-width: 870px){
     .snsmenu{
         padding-left: 20%;
     }
-    .menuwrapper {
-        margin-top: 50px;
-        width: 100%;
+    .menuitem{
+        list-style: none;
+        float: left;
+        padding-bottom: 40px;
     }
 }
 
@@ -333,9 +335,10 @@ nav ul li a:hover{
     .snsmenu{
         padding-left: 17%;
     }
-    .menuwrapper {
-        margin-top: 50px;
-        width: 100%;
+    .menuitem{
+        list-style: none;
+        float: left;
+        padding-bottom: 40px;
     }
 }
 
@@ -343,8 +346,9 @@ nav ul li a:hover{
     .snsmenu{
         padding-left: 15%;
     }
-    .menuwrapper {
-        margin-top: 50px;
-        width: 100%;
+    .menuitem{
+        list-style: none;
+        float: left;
+        padding-bottom: 40px;
     }
 }
