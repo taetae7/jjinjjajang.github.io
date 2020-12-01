@@ -199,6 +199,33 @@ nav ul li a:hover{
     font-size: 25px;
 }
 
+.menuwrapper {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menuitem{
+    list-style: none;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.sample {
+    width: 280px;
+    height: 280px;
+}
+
+.nameandprice {
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
 @media screen and (max-width: 1250px){
     h2 {
         font-family: 'Poor Story', cursive;
