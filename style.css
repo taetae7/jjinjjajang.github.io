@@ -312,6 +312,11 @@ nav ul li a:hover{
     .deliicon{
         width: 60%;
     }
+
+    .menuwrapper {
+        margin-top: 50px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 870px){
