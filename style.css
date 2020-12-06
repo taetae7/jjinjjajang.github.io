@@ -226,6 +226,21 @@ nav ul li a:hover{
     font-size: 20px;
 }
 
+.container {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 103%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 
 @media screen and (max-width: 1250px){
     h2 {
