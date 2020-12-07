@@ -92,20 +92,26 @@ input, select {
 
 /* Start Here */
 h1 {
-    font-family: 'Poor Story', cursive;
+    font-family: 'Poor Story', 'Roboto', sans-serif;
     font-weight: 700;
 }
 
 h2 {
-    font-family: 'Poor Story', cursive;
+    font-family: 'Poor Story', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 50px;
 }
 
 h3 {
-    font-family: 'Poor Story', cursive;
+    font-family: 'Poor Story', 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Poor Story', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .wrapper {
@@ -127,6 +133,7 @@ h3 {
 .logo {
     width: 90%;
     padding-bottom: 20px;
+    position: abs;
 }
 
 nav {
@@ -142,7 +149,7 @@ nav ul li {
 }
 
 nav ul li a{
-    font-family: 'Poor Story', cursive;
+    font-family: 'Poor Story', 'Roboto', sans-serif;
     font-weight: 400;
     text-decoration: none;
     font-size: 20px;
@@ -234,11 +241,21 @@ nav ul li a:hover{
   
 .center {
     margin: 0;
+    padding-bottom: 5%;
     position: absolute;
     top: 103%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+}
+.footer li {
+    display: inline-block;
 }
 
 
@@ -349,6 +366,7 @@ nav ul li a:hover{
         padding-right: 0px;
         padding-bottom: 40px;
     }
+
 }
 
 @media screen and (max-width: 770px){
