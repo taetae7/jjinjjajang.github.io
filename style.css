@@ -162,7 +162,6 @@ nav ul li a:hover{
 
 .snsmenu{
     display: inline-block;
-    margin: auto;
     padding-top: 7%;
 }
 
@@ -307,7 +306,7 @@ nav ul li a:hover{
     }
     
     .snsmenu{
-        display: inline-block;
+        display: block;
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: 5px;
