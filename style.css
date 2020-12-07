@@ -261,6 +261,10 @@ nav ul li a:hover{
 
 
 @media screen and (max-width: 1250px){
+    .logowrapper {
+        margin-left: 0%;
+    }
+
     h2 {
         font-family: 'Poor Story', cursive;
         font-weight: 700;
