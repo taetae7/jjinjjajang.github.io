@@ -371,6 +371,23 @@ nav ul li a:hover{
         padding-right: 0px;
         padding-bottom: 40px;
     }
+    .deliverybutton{
+        padding-bottom: 10%;
+    }
+    .container {
+        height: 60px;
+        width: 100%;
+        position: relative;
+    }
+    .center {
+        margin: 0;
+        padding-bottom: 0%;
+        position: absolute;
+        top: 103%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -130%);
+    }
 
 }
 
