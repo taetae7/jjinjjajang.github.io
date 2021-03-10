@@ -191,6 +191,11 @@ nav ul li a:hover{
     height: auto;
 }
 
+.images2 {
+    width: 50%;
+    height: auto;
+}
+
 .menu {
     width: 48%;
 }
@@ -361,6 +366,10 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width: 870px){
+    .images2 {
+        width: 85%;
+        height: auto;
+    }
     .snsmenu{
         padding-left: 20%;
     }
