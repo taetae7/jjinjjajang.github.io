@@ -264,6 +264,9 @@ nav ul li a:hover{
     text-decoration: none;
 }
 
+.yelplogo {
+    width: 55pt;
+}
 
 @media screen and (max-width: 1250px){
     .logowrapper {
